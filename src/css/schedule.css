@@ -1,0 +1,51 @@
+.title{
+   text-align: center;
+   margin-top: 20px;
+   font-size: 40px;
+}
+
+.main{
+    /* background-color: red; */
+    display: flex;
+    font-size: 18px;
+    margin: 50px 0px 50px 100px;
+    line-height: 30px;
+
+}
+
+.objetivos{
+    /* background-color: yellow; */
+    border: 2px solid black;
+    margin-right: 80px;    
+    padding: 20px;
+    width: 25%;
+
+}
+
+.cronograma{
+    /* background-color: green; */
+    border: 2px solid black;
+    margin-right: 80px;
+    padding: 20px;
+    width: 25%;
+}
+
+.cronograma2{
+    /* background-color: green; */
+    border: 2px solid black;
+    padding: 20px;
+    width: 25%;
+}
+
+.cronograma-nina{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 0px 50px 0px 80px;
+}
+
+.projeto-tibia{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}

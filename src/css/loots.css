@@ -1,0 +1,58 @@
+body::before{
+    content: "";
+    background-image: url(../images/tibia-fundo-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;  
+}
+
+*{
+    color: white;
+}
+
+table, caption, th, td {
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid;
+    border-collapse: collapse;
+    text-align: center;
+    
+}
+
+table, th {
+    color: orange;
+}
+
+.main{
+    display: flex;
+}
+
+.div-mother{
+    /* background-color: red; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.caption{
+    font-size: 25px;
+    background-color: brown;
+    color: yellow;
+}
+
+.div-mother .table{
+    background-color: rgb(172, 63, 63);
+    height: 100%px;
+    width: 300px;
+    margin: 5px 10px 5px 5px;
+
+}
