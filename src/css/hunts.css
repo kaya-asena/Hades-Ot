@@ -54,6 +54,21 @@
     border: 2px solid;
     border-radius: 30px;
 }
+
+.title-rottem{    
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 40px;
+        color: orange;
+        background-color: brown;
+        width: 300px;
+        margin-left: 790px;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 30px;
+    }
+
+
 .main-map{
     background-color: yellow;
 }
