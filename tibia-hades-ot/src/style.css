@@ -1,0 +1,141 @@
+body::before{
+    content: "";
+    background-image: url(./images/tibia-fundo-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.9;  
+}
+
+.descricao-links{
+    /* background-color: red; */
+    margin-left: 300px;    
+    display: flex;
+    height: 600px;    
+
+}
+
+
+
+.descricao-links h2{
+    background-color: green;
+    flex-direction: column;
+}
+
+
+
+
+
+.cabecalho{
+    /* background-color: yellow; */
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+
+    /* align-items: center; */
+}
+
+.cabecalho .logo-principal{
+    /* background-color: red; */
+    align-items: center;
+    
+    
+    
+}
+
+.menu{
+    /* background-color: green; */
+    color: white;
+    font-size: 25px;  
+        
+    
+}
+
+.menu li{
+    padding: 40px;
+}
+
+.menu a{
+    
+    text-decoration: none;
+    padding: 10px;   
+}
+
+.menu a:link{    
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.menu a:visited{
+    color: rgb(190, 169, 169);
+    background-color: orange; 
+    border-radius: 30px;
+    border: 2px solid white;
+}
+
+.menu a:hover{
+    background-color: brown;
+    transition: 0.2s;
+}
+
+.menu .menu-rate{  
+    display: block;  
+    width: 150px;
+    text-align: center;
+}
+
+.menu .menu-bosses{  
+    display: block;  
+    width: 150px;
+    text-align: center;
+}
+
+.menu .menu-events{  
+    display: block;  
+    width: 150px;
+    text-align: center;
+}
+
+.menu .menu-imbs{  
+    display: block;  
+    width: 150px;
+    text-align: center;
+}
+
+.menu .menu-hunts{  
+    display: block;  
+    width: 150px;
+    text-align: center;
+}
+.main-content{
+    /* background-color: yellow; */
+    display: flex;
+}
+
+.content{
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    
+    
+}
+
+.content .tibia-logo{
+    /* background-color: red; */
+    width: 400px;
+}
+
+.content .create-account{
+    /* background-color: yellow; */
+    width: 250px;    
+}
