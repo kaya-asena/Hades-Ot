@@ -1,0 +1,93 @@
+.cabecalho{
+    display: flex;
+    justify-content: center;
+}
+
+.hunts{
+    /* display: flex; */
+    padding: 30px;
+    margin-top: 50px;
+    justify-content: space-between;
+    /* width: 1000px; */
+    
+
+}
+
+.hunt{
+    background-color: brown;
+    color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid orange;
+    padding: 30px;
+    
+    
+}
+
+.title{
+    /* background-color: blue; */
+    text-align: center;
+    margin-top: 40px;
+    color: orange;
+    background-color: brown;
+    width: 300px;
+    margin-left: 790px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 30px;
+}
+
+.title-rottem{    
+        /* background-color: blue; */
+        text-align: center;
+        margin-top: 40px;
+        color: orange;
+        background-color: brown;
+        width: 300px;
+        margin-left: 790px;
+        padding: 10px;
+        border: 2px solid;
+        border-radius: 30px;
+    }
+
+
+.main-map{
+    background-color: yellow;
+}
+
+.icecoldbook{
+    margin: 30px;
+    width: 95%; 
+       
+}
+
+.squidwarden{
+    margin:  30px;
+    width: 95%; 
+}
+
+.animatedfeather{
+    margin: 30px;
+    width: 95%; 
+}
+
+.runes{
+    margin: 40px;
+}
+
+.icb{
+    margin: 20px;
+}
+
+.sw{
+    margin: 30px;
+}
+
+.af{
+    margin: 30px;
+}
